@@ -3,73 +3,55 @@ layout: default
 title: Welcome
 ---
 
-# Hi, I'm Joyce!
+# What I Built — Experiments & Prototypes in Docs-as-Code
 
-# Projects Overview
-
-## GenAI Platform & Documentation Improvements
-
-**Problem:**  
-Developers faced difficulty onboarding and exploring the GenAI platform due to scattered and complex documentation.
-
-**Solution:**  
-- Improved information architecture of existing GenAI documentation for easier navigation.  
-- Created tutorials: *My First AI Agent* and *Run and Explore Multi-Agent Workflows*.  
-- Updated guides with clearer environment setup instructions.  
-- Established a new documentation site for Search and AI Platform.  
-- Integrated GraphQL, Search, and AI Platform documentation into Backstage for easier discovery.
-
-**Impact:**  
-Laid the foundation for easier onboarding and exploration, supporting future monetizable innovation.
+## 1. Quick Win: Pre-commit Documentation Checks  
+**Goal:** Automate enforcement of documentation standards before code merges.  
+**Experiment:** Built a simple Python pre-commit hook in 3 days.  
+**Outcome:** Adopted by a team; helps catch documentation issues early.  
+**Impact:** *Initial adoption; impact to be measured over time.*
 
 ---
 
-## Engineering Excellence & Docs as Code
-
-**Problem:**  
-Inconsistent documentation practices impacted developer productivity and experience.
-
-**Solution:**  
-- Developed a Docs as Code Architectural Standard and Best Practice, incorporating The Good Docs Project templates, Diátaxis framework, and AI-assisted prompts.  
-- Piloted standards in projects like GraphQL, Shared Service, and GenAI Platform.  
-- Published standards on Backstage.  
-- Launched a documentation community of practice.  
-- Created a Documentation Assessment Framework for teams to self-assess documentation quality.
-
-**Impact:**  
-Established standards for documentation consistency and quality, enabling organization-wide adoption in the future.
+## 2. Starting Small: AI Coach for Repo Setup  
+**Goal:** Reduce onboarding friction by automating repo documentation scaffolding.  
+**Experiment:** Created an AI-powered bot to bootstrap new repos with templates.  
+**Outcome:** Used successfully by a team to standardize initial docs.  
+**Impact:** *Early results; next step is measuring team adoption.*
 
 ---
 
-## Personal & Professional Development
-
-**Problem:**  
-Needed to deepen AI expertise and improve documentation practices.
-
-**Solution:**  
-- Completed LangChain Academy's *Introduction to LangGraph* and *GraphQL Associate* courses.  
-- Applied learnings to enhance GenAI and Search documentation.  
-- Shared insights through a blog.
-
-**Impact:**  
-Enhanced understanding of AI projects and improved documentation quality, facilitating more effective knowledge sharing.
+## 3. Testing Standards: Vale Rulesets for Content Quality  
+**Goal:** Automate content linting to improve docs quality.  
+**Experiment:** Developed Vale rulesets based on writing guidelines.  
+**Outcome:** Pilot in CI/CD pipelines.  
+**Impact:** *Initial testing; scaling and impact assessment ongoing.*
 
 ---
 
-## Future Initiatives & Scaling
-
-**Problem:**  
-Need to measure and scale documentation and reuse practices effectively.
-
-**Solution:**  
-- Plan to improve documentation for Large Language Models (LLMs).  
-- Roll out the Documentation Self-Assessment Framework.  
-- Develop methods to measure the impact of documentation efforts.  
-- Mature API spec-driven development practices.  
-- Support Reuse Champions and embed Docs as Code into reuse strategies.
-
-**Impact:**  
-Enabling sustainable, outcome-driven practices at scale to enhance developer experience and organizational efficiency.
+## 4. Organizing Knowledge: Backstage TechDocs Projects  
+**Goal:** Improve discoverability of scattered documentation.  
+**Experiment:** Organized existing docs into Backstage TechDocs.  
+**Outcome:** Created a centralized view of documentation.  
+**Impact:** *Foundation laid; future measurement of usage.*
 
 ---
+
+## 5. Exploring Documentation Frameworks  
+**Goal:** Define a reusable structure for documentation.  
+**Experiment:** Piloted Diátaxis framework and The Good Docs Project templates across projects.  
+**Outcome:** Published standards on Backstage.  
+**Impact:** *Early adoption; measuring cultural change next.*
+
+---
+
+## 6. Building a Learning Loop: Sharing and Community  
+**Goal:** Foster a culture of documentation excellence.  
+**Experiment:** Launched a documentation community of practice and published blogs.  
+**Outcome:** Engaged a small group, shared best practices.  
+**Impact:** *Initial engagement; scaling efforts planned.*
+
+---
+
+*Note:* These items are early experiments and prototypes aimed at building a sustainable docs pipeline. The impact is being observed and measured as these ideas evolve.
 
